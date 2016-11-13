@@ -42,7 +42,7 @@ for i,line in enumerate(wordbank_lines):
 # 新建一个 addbank 字典
 addbank = {}
 for line in addbank_lines:
-    if re.match('^/s*$', line):
+    if re.match('^\s*$', line):
         continue
     [code, weight, word] = line.split()
     if code in addbank:
@@ -59,7 +59,7 @@ for line in addbank_lines:
 # 为原词库建成一个字典 wordbank
 wordbank = {}
 for line in wordbank_lines[beginrow:]:
-    if re.match('^/s*$', line):
+    if re.match('^\s*$', line):
         break
     [word, code] = line.split();
 
