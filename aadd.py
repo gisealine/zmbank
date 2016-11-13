@@ -36,7 +36,7 @@ f.close()
 
 addbank = {}
 for line in addbank_lines:
-    if re.match('^/s*$', line):
+    if re.match('^\s*$', line):
         continue
     [code, weight, word] = line.split()
     if code in addbank:
