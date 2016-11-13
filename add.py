@@ -33,6 +33,7 @@ addbank_lines = f.readlines()
 f.close()
 
 for i,line in enumerate(wordbank_lines):
+    # 找到 "一 a" 就说明了以后都是词库内容
     if re.match(u'^\u4e00', line):
         beginrow = i
         break
