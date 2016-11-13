@@ -19,7 +19,7 @@ from collections import OrderedDict
 script_path = os.path.dirname(os.path.abspath(__file__))
 wordbank_path = os.path.join(script_path, 'bzzm.jd.dict.yaml')
 addbank_path = os.path.join(script_path, 'add.txt')
-writeto_path = 'c:/Users/bentley/AppData/Roaming/Rime/bzzm.jd.dict.yaml'
+writeto_path = os.path.join(os.getenv('APPDATA'), 'Rime/bzzm.jd.dict.yaml')
 rime_path = 'C:/Program Files (x86)/Rime/weasel-0.9.30/WeaselDeployer.exe'
 
 
