@@ -93242,9 +93242,9 @@
 出敌不意zmgs=2
 婖zmgu=1
 嬘zmgw=1
-女友zmgx=1
-媛zmgx=2
-嫒zmgx=3
+媛zmgx=1
+嫒zmgx=2
+女友zmgx=3
 姨zmgy=1
 如箭在弦zmgy=2
 姽zmgy=3
